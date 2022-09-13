@@ -1,0 +1,44 @@
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+
+}
+.dashboard__buttonfield {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dashboard__buttonfield button {
+  margin: 10px;
+  background-color: rgb(238, 237, 237);
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  cursor: pointer;
+}
+.dashboard__buttonfield__time {
+  padding: 10px;
+  border: 1px solid rgb(222, 221, 221);
+  border-radius: 5px;
+}
+.dashboard__buttonfield__time-active {
+  box-shadow: 10px 5px 5px gray;
+}
+.dashboard__cardfield {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 120px;
+  background-color: rgb(238, 237, 237);
+}
+.dashboard__cardfield__card {
+
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  width: 30%;
+  box-shadow: 10px 5px 5px gray;
+
+}

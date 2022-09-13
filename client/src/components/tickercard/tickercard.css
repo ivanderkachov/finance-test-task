@@ -1,0 +1,33 @@
+
+.card__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: green;
+}
+.card__wrapper-red {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: red
+}
+.card__wrapper_img {
+  height: 50px;
+  width: 50px;
+  filter: invert(30%) sepia(93%) saturate(1352%) hue-rotate(87deg) brightness(119%) contrast(119%);
+}
+.card__wrapper_img-red{
+  height: 50px;
+  width: 50px;
+  filter: invert(25%) sepia(93%) saturate(1352%) hue-rotate(10deg) brightness(119%) contrast(119%);
+}
+.card__wrapper_nameprice {
+  padding: 20px;
+  border-right: 1px solid rgb(221, 217, 217);
+  border-left: 1px solid rgb(221, 217, 217);
+}
+.card__wrapper_nameprice h3 {
+  color: gray;
+}
+.card__wrapper_changes {
+}
